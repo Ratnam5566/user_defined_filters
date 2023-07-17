@@ -1,0 +1,19 @@
+{% load udf %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>FILTER</h1>
+        <h2>{{s|udf}}</h2>
+        <h2>{{s|remove:'a'}}</h2>
+        <h2>{{s|count:'a'}}</h2>
+        <h2>{{v|count1:'ha'}}</h2>
+        <h2>{{f|remove1}}</h2>
+    </center>
+</body>
+</html>
